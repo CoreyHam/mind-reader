@@ -10,7 +10,6 @@
 - Pages
   - Contains all the content, including instructions and buttons
 - Buttons
-  - GO
   - NEXT
   - RESET
   - REVEAL
@@ -24,7 +23,6 @@
   - subText - Changes text at bottom of page
 
 - Buttons
-    - goButton -> Takes user from page one to page two
     - nextButton -> Takes user to next page from current page
     - resetButton -> Takes user back to page one
     - revealButton -> Takes user to the final page
