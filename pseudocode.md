@@ -31,32 +31,36 @@
 
 - Symbols
   - sybols -> array of different symbols
-## Page States
+## Page `States`
 
-### First State
-- Text should say "I can read your mind"
-- goButton should be shown
+`State` 1: 
+- text should say "I can read your mind"
+- goButton should be displayed
 
-### Second State
-- Test should say "Pick a number from 01 - 99"
-- nextButton should display
+`State` 2:
+- text should say "Pick a number from 01 - 99"
+- nextButton button should be displayed
 - subText should say "when you have your number click next"
-- resetButton should display
+- resetButton should be displayed
 
-### Third State
-- Test should say "Add both digits together to get a new number"
-- nextButton should display
-- subText should say "Ex: 14 is 1 + 4 = 5 click next to proceed"
-- resetButton should display
+`State` 3:
+- text should say "Add both digits together to get a new number"
+- nextButton should be displayed
+- subText should say "Ex: 14 is 1 + 4 = 5\n click next to proceed"
+- resetButton should be displayed
 
-### Fourth State
-- Test should say "Subtract your new number from the original number"
-- nextButton should display
+`State` 4:
+- text should say "Subtract your new number from the original number"
+- nextButton should be displayed
 - subText should say "Ex: 14 - 5 = 9 click next to proceed"
-- resetButton should display
+- resetButton should be displayed
 
-### Fifth State
-- Text should display a list on numbers with different symbols (with 0 being the correct symbol)
-- revealButton should display
-- subText should say "Find your new number and Note the symbol beside the number"
-- resetButton should display
+`State` 5:
+- symbols shows list of numbers with a symbol assigned to each (zero should be the correct symbol)
+- revealButton should be displayed
+- subText should say "Find your new number and note the symbol beside the number"
+- resetButton should be displayed
+
+`State` 6:
+- symbol shows the correct symbol
+- subText should say "Your symbol is: " + symbol
