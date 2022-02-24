@@ -3,25 +3,65 @@
     "headerText": "I can read your mind.",
     "nextButton":{
         "text": "NEXT",
-        "display": "visible"
+        "display": "hidden"
     },
     "subText": "",
     "bottomButton":{
         "text": "GO",
-        "display": true
+        "reset": false
     }
 
 },
 {
-    "headerText": "Just Kidding.",
+    "headerText": "Pick a Number from 1-99",
     "nextButton":{
         "text": "NEXT",
         "display": "visible"
     },
-    "subText": "",
+    "subText": "when you have your number tap next",
     "bottomButton":{
-        "text": "GO",
-        "display": true
+        "text": "RESET",
+        "reset": true
+    }
+
+},
+{
+    "headerText": "Add both digits together to get a new number",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "visible"
+    },
+    "subText": "Ex: 14 is 1 + 4 = 5 <br> click next to proceed",
+    "bottomButton":{
+        "text": "RESET",
+        "reset": true
+    }
+
+},
+{
+    "headerText": "Subtract your new number from the original number",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "visible"
+    },
+    "subText": "Ex: 14 - 5 = 9 <br> click next to proceed",
+    "bottomButton":{
+        "text": "RESET",
+        "reset": true
+    }
+
+},
+{
+    "headerText": "",
+    "symbolHeader": "",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "visible"
+    },
+    "subText": "Ex: 14 - 5 = 9 <br> click next to proceed",
+    "bottomButton":{
+        "text": "RESET",
+        "reset": true
     }
 
 }]

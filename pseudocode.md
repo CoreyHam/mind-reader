@@ -44,7 +44,7 @@
 `State` 3:
 - text should say "Add both digits together to get a new number"
 - nextButton should be displayed
-- subText should say "Ex: 14 is 1 + 4 = 5\n click next to proceed"
+- subText should say "Ex: 14 is 1 + 4 = 5 click next to proceed"
 - resetButton should be displayed
 
 `State` 4:
