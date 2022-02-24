@@ -1,0 +1,28 @@
+{
+"page": [{
+    "headerText": "I can read your mind.",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "visible"
+    },
+    "subText": "",
+    "bottomButton":{
+        "text": "GO",
+        "display": true
+    }
+
+},
+{
+    "headerText": "Just Kidding.",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "visible"
+    },
+    "subText": "",
+    "bottomButton":{
+        "text": "GO",
+        "display": true
+    }
+
+}]
+}
