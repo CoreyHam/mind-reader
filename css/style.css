@@ -1,7 +1,12 @@
 html{
     background-color: red;
 }
-
+#red{
+    color: red;
+}
+#black{
+    color: black;
+}
 #phoneScreen{
     padding-top: 5vh;
     height: 896px;

@@ -1,7 +1,7 @@
 let num = 0   
 let currentPage = 0;
 let buttonChecker;
-let array = ["!","@","#","&"]
+let array = ["<i class='bi bi-suit-club-fill black'></i>","<i class='bi bi-suit-spade-fill black'></i>","<i class='bi bi-diamond-fill red'></i>","<i class='bi bi-suit-heart-fill red'></i>"]
 // IMPORT JSON
 
 
@@ -32,7 +32,7 @@ function updatePages(){
       if (pages.page[currentPage].symbolHeader != undefined){
          for (let num = 0; num < 100; num++){
             let newDivs = document.createElement("div");
-            newDivs.textContent = `${num} - ${array[num%array.length]}`; //put in symbol and num
+            newDivs.innerHTML = `${num} - ${array[num%array.length]}`; //put in symbol and num
             headerText.appendChild(newDivs);
       }
    }
