@@ -1,8 +1,12 @@
-
+let num = 0   
+let currentPage = 0;
+let buttonChecker;
+let array = ["!","@","#","&"]
 // IMPORT JSON
 
 
 updatePages();
+randomArrayShuffle(array)
 function updatePages(){
 
    fetch("js/pages.json")
@@ -16,6 +20,8 @@ function updatePages(){
 }
 
    function doSomething(pages){
+      const headerText = document.getElementById("headerText")
+      
       console.log(pages.page[currentPage].nextButton.display)
       document.getElementById("headerText").innerHTML = pages.page[currentPage].headerText
       document.getElementById("nextButton").style.visibility = pages.page[currentPage].nextButton.display
@@ -24,16 +30,28 @@ function updatePages(){
       buttonChecker = pages.page[currentPage].bottomButton.reset
       console.log(pages.page[currentPage].symbolHeader)
       if (pages.page[currentPage].symbolHeader != undefined){
-         for (let num = 0; num < 100; num++)
-         document.getElementById("headerText").innerHTML += num + "-" + "@" + "<br>"
+         for (let num = 0; num < 100; num++){
+            let newDivs = document.createElement("div");
+            newDivs.textContent = `${num} - ${array[num%array.length]}`; //put in symbol and num
+            headerText.appendChild(newDivs);
       }
    }
-
+}
    
 // Controller
-let num = 0   
-let currentPage = 0;
-let buttonChecker;
+
+
+function randomArrayShuffle(array) {
+   var currentIndex = array.length, temporaryValue, randomIndex;
+   while (0 !== currentIndex) {
+     randomIndex = Math.floor(Math.random() * currentIndex);
+     currentIndex -= 1;
+     temporaryValue = array[currentIndex];
+     array[currentIndex] = array[randomIndex];
+     array[randomIndex] = temporaryValue;
+   }
+   console.log(array);
+ }
 
 function bottomButtonFunc(){
    if(buttonChecker == false){
