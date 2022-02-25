@@ -1,0 +1,81 @@
+html{
+    background-color: red;
+}
+#phoneScreen{
+    padding-top: 5vh;
+    height: 896px;
+    width: 414px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerText{
+    font-size: 65px;
+    text-align: center;
+    animation: fadeIn 3s;
+    padding-bottom: 10vh;
+    max-height: 600px;
+    overflow: scroll;
+    
+}
+#nextButton{
+    height: 80px;
+    width: 90%;
+    border-radius: 25px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 9px;
+    visibility: hidden;
+    
+}
+#subText{
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+
+#bottomButton{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* Icon Colors */
+.circle{
+    color: #DC602E;
+}
+.square{
+    color: #8F2D56;
+}
+.triangle{
+    color: #47682C;
+}
+.diamond{
+    color: #05668D;
+}
+.heart{
+    color: #D183C9;
+}
+.star{
+    color: #F7C548;
+}
+.cloud{
+    color: #78C0E0;
+}
+.moon{
+    color: #414066;
+}
+.gear{
+    color:#130303;
+}
