@@ -55,10 +55,24 @@
     "headerText": "",
     "symbolHeader": "",
     "nextButton":{
-        "text": "NEXT",
+        "text": "REVEAL",
         "display": "visible"
     },
-    "subText": "Ex: 14 - 5 = 9 <br> click next to proceed",
+    "subText": "",
+    "bottomButton":{
+        "text": "RESET",
+        "reset": true
+    }
+
+},
+{
+    "headerText": "",
+    "answerHeader": "",
+    "nextButton":{
+        "text": "NEXT",
+        "display": "hidden"
+    },
+    "subText": "",
     "bottomButton":{
         "text": "RESET",
         "reset": true

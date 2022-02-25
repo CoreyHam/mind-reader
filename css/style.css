@@ -1,12 +1,6 @@
 html{
     background-color: red;
 }
-#red{
-    color: red;
-}
-#black{
-    color: black;
-}
 #phoneScreen{
     padding-top: 5vh;
     height: 896px;
@@ -55,4 +49,33 @@ html{
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-  }
+}
+
+/* Icon Colors */
+.circle{
+    color: #DC602E;
+}
+.square{
+    color: #8F2D56;
+}
+.triangle{
+    color: #47682C;
+}
+.diamond{
+    color: #05668D;
+}
+.heart{
+    color: #D183C9;
+}
+.star{
+    color: #F7C548;
+}
+.cloud{
+    color: #78C0E0;
+}
+.moon{
+    color: #414066;
+}
+.gear{
+    color:#130303;
+}
