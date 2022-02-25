@@ -28,7 +28,7 @@ function updatePages(){
 function updatePageData(pages){
    const headerText = document.getElementById("headerText")
    
-   document.getElementById("headerText").innerHTML = pages.page[currentPage].headerText //Set HTML header text to JSON header text
+   headerText.innerHTML = pages.page[currentPage].headerText //Set HTML header text to JSON header text
    document.getElementById("nextButton").style.visibility = pages.page[currentPage].nextButton.display // Set button visability from JSON
    document.getElementById("nextButton").innerText = pages.page[currentPage].nextButton.text // Set next button text from JSON
    document.getElementById("subText").innerHTML = pages.page[currentPage].subText // Set Sub text from JSON
@@ -70,6 +70,7 @@ function bottomButtonFunc(){
       updatePages();
    }
 }
+
 // Goes to the next page
 function nextPage(){
    currentPage++;
