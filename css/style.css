@@ -1,10 +1,9 @@
-html{
-    background-color: red;
-}
+/* Each object has its own id (which dynamically changes with JS) */
+
 #phoneScreen{
     padding-top: 5vh;
-    height: 896px;
-    width: 414px;
+    /* height: 896px;
+    width: 414px; */
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,7 @@ html{
 #headerText{
     font-size: 65px;
     text-align: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 3s; /* Makes the header fade in */
     padding-bottom: 10vh;
     max-height: 600px;
     overflow: scroll;
@@ -45,7 +44,7 @@ html{
     width: 80px;
     border-radius: 50%;
 }
-
+/* Uses keyframes to handle animations */
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
